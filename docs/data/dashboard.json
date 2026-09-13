@@ -1,0 +1,2266 @@
+{
+ "generated_at": "2026-09-13T00:30:32-04:00",
+ "demo": true,
+ "version": "v1.0",
+ "criteria": {
+  "eval_months": 6,
+  "min_sharpe_net_10bps": 0.5,
+  "min_trades": 60,
+  "max_avg_delay_bps": 10
+ },
+ "last_session": {
+  "window": "afternoon",
+  "ts": "2026-09-10T16:04:00-04:00",
+  "account_equity": 99963.86265017114,
+  "spy_close": 612.48,
+  "incidents": 0
+ },
+ "orders_today": 0,
+ "next_event": {
+  "when": "2026-09-14T09:35:05-04:00",
+  "label": "S1: revisión de entrada"
+ },
+ "strategies": {
+  "S1": {
+   "name": "ORB 5 min",
+   "symbols": [
+    "TQQQ",
+    "SQQQ"
+   ],
+   "signal_symbol": "QQQ",
+   "equity": 10016.857224743027,
+   "equity_start": 10000.0,
+   "status": "activo",
+   "status_detail": "",
+   "open_position": null,
+   "metrics": {
+    "n_trades": 38,
+    "win_rate": 0.4473684210526316,
+    "profit_factor": 1.0152812340329886,
+    "avg_pnl": 0.4436111774480796,
+    "total_pnl": 16.857224743027025,
+    "return_pct": 0.0016857224743027643,
+    "sharpe": 0.14107674908272555,
+    "max_drawdown": 0.023866995116924045
+   },
+   "avg_delay_bps": 3.36097572596318,
+   "curve": [
+    {
+     "date": "2026-07-10",
+     "equity": 9965.42365149874
+    },
+    {
+     "date": "2026-07-13",
+     "equity": 9952.567573951785
+    },
+    {
+     "date": "2026-07-14",
+     "equity": 9908.452626683567
+    },
+    {
+     "date": "2026-07-15",
+     "equity": 9976.255153165976
+    },
+    {
+     "date": "2026-07-16",
+     "equity": 9868.513237639858
+    },
+    {
+     "date": "2026-07-17",
+     "equity": 9761.33004883076
+    },
+    {
+     "date": "2026-07-20",
+     "equity": 9792.67157816383
+    },
+    {
+     "date": "2026-07-21",
+     "equity": 9792.67157816383
+    },
+    {
+     "date": "2026-07-22",
+     "equity": 9919.43743748732
+    },
+    {
+     "date": "2026-07-23",
+     "equity": 9871.840494885102
+    },
+    {
+     "date": "2026-07-24",
+     "equity": 9890.664874179138
+    },
+    {
+     "date": "2026-07-27",
+     "equity": 9848.477541689988
+    },
+    {
+     "date": "2026-07-28",
+     "equity": 9822.946964037621
+    },
+    {
+     "date": "2026-07-29",
+     "equity": 9822.946964037621
+    },
+    {
+     "date": "2026-07-30",
+     "equity": 9881.925074802903
+    },
+    {
+     "date": "2026-07-31",
+     "equity": 9881.925074802903
+    },
+    {
+     "date": "2026-08-03",
+     "equity": 9881.925074802903
+    },
+    {
+     "date": "2026-08-04",
+     "equity": 9967.855023718328
+    },
+    {
+     "date": "2026-08-05",
+     "equity": 9967.855023718328
+    },
+    {
+     "date": "2026-08-06",
+     "equity": 9947.832937108356
+    },
+    {
+     "date": "2026-08-07",
+     "equity": 9990.973405088243
+    },
+    {
+     "date": "2026-08-10",
+     "equity": 9990.973405088243
+    },
+    {
+     "date": "2026-08-11",
+     "equity": 9875.007983133746
+    },
+    {
+     "date": "2026-08-12",
+     "equity": 9828.760769416423
+    },
+    {
+     "date": "2026-08-13",
+     "equity": 9842.568504238177
+    },
+    {
+     "date": "2026-08-14",
+     "equity": 9814.138507651303
+    },
+    {
+     "date": "2026-08-17",
+     "equity": 10014.113745045144
+    },
+    {
+     "date": "2026-08-18",
+     "equity": 9969.476275150042
+    },
+    {
+     "date": "2026-08-19",
+     "equity": 9977.496785971854
+    },
+    {
+     "date": "2026-08-20",
+     "equity": 10047.593944425505
+    },
+    {
+     "date": "2026-08-21",
+     "equity": 9937.48196821907
+    },
+    {
+     "date": "2026-08-24",
+     "equity": 9951.569630207054
+    },
+    {
+     "date": "2026-08-25",
+     "equity": 9943.885109254788
+    },
+    {
+     "date": "2026-08-26",
+     "equity": 10005.970573994848
+    },
+    {
+     "date": "2026-08-27",
+     "equity": 9978.697484744216
+    },
+    {
+     "date": "2026-08-28",
+     "equity": 10006.353892663268
+    },
+    {
+     "date": "2026-08-31",
+     "equity": 10006.353892663268
+    },
+    {
+     "date": "2026-09-01",
+     "equity": 9951.563837821528
+    },
+    {
+     "date": "2026-09-02",
+     "equity": 9882.08467830125
+    },
+    {
+     "date": "2026-09-03",
+     "equity": 10003.042558935149
+    },
+    {
+     "date": "2026-09-04",
+     "equity": 10018.96252068014
+    },
+    {
+     "date": "2026-09-07",
+     "equity": 9955.530292943497
+    },
+    {
+     "date": "2026-09-08",
+     "equity": 9874.036016782045
+    },
+    {
+     "date": "2026-09-09",
+     "equity": 9862.258416446724
+    },
+    {
+     "date": "2026-09-10",
+     "equity": 10016.857224743027
+    }
+   ]
+  },
+  "S2": {
+   "name": "Banda de ruido",
+   "symbols": [
+    "SPY",
+    "SH"
+   ],
+   "signal_symbol": "SPY",
+   "equity": 9816.07660968368,
+   "equity_start": 10000.0,
+   "status": "activo",
+   "status_detail": "",
+   "open_position": null,
+   "metrics": {
+    "n_trades": 22,
+    "win_rate": 0.45454545454545453,
+    "profit_factor": 0.6553431866196985,
+    "avg_pnl": -8.36015410528734,
+    "total_pnl": -183.92339031632147,
+    "return_pct": -0.018392339031632066,
+    "sharpe": -1.8532605315431678,
+    "max_drawdown": 0.02467942032746086
+   },
+   "avg_delay_bps": 2.889721905337096,
+   "curve": [
+    {
+     "date": "2026-07-10",
+     "equity": 10008.394547443515
+    },
+    {
+     "date": "2026-07-13",
+     "equity": 10008.394547443515
+    },
+    {
+     "date": "2026-07-14",
+     "equity": 9959.708611633136
+    },
+    {
+     "date": "2026-07-15",
+     "equity": 9959.708611633136
+    },
+    {
+     "date": "2026-07-16",
+     "equity": 9959.708611633136
+    },
+    {
+     "date": "2026-07-17",
+     "equity": 9973.994305989396
+    },
+    {
+     "date": "2026-07-20",
+     "equity": 9973.994305989396
+    },
+    {
+     "date": "2026-07-21",
+     "equity": 9973.994305989396
+    },
+    {
+     "date": "2026-07-22",
+     "equity": 9964.419821926149
+    },
+    {
+     "date": "2026-07-23",
+     "equity": 9964.419821926149
+    },
+    {
+     "date": "2026-07-24",
+     "equity": 10046.334440102462
+    },
+    {
+     "date": "2026-07-27",
+     "equity": 10046.334440102462
+    },
+    {
+     "date": "2026-07-28",
+     "equity": 10064.461690103368
+    },
+    {
+     "date": "2026-07-29",
+     "equity": 10021.61839808155
+    },
+    {
+     "date": "2026-07-30",
+     "equity": 9956.259207398214
+    },
+    {
+     "date": "2026-07-31",
+     "equity": 9956.259207398214
+    },
+    {
+     "date": "2026-08-03",
+     "equity": 9906.987739654323
+    },
+    {
+     "date": "2026-08-04",
+     "equity": 9967.825375162813
+    },
+    {
+     "date": "2026-08-05",
+     "equity": 9959.688567661193
+    },
+    {
+     "date": "2026-08-06",
+     "equity": 9959.688567661193
+    },
+    {
+     "date": "2026-08-07",
+     "equity": 9959.688567661193
+    },
+    {
+     "date": "2026-08-10",
+     "equity": 9905.109422508816
+    },
+    {
+     "date": "2026-08-11",
+     "equity": 10007.518822620616
+    },
+    {
+     "date": "2026-08-12",
+     "equity": 9950.252730648772
+    },
+    {
+     "date": "2026-08-13",
+     "equity": 9961.922323115557
+    },
+    {
+     "date": "2026-08-14",
+     "equity": 9961.922323115557
+    },
+    {
+     "date": "2026-08-17",
+     "equity": 9961.922323115557
+    },
+    {
+     "date": "2026-08-18",
+     "equity": 10002.627385144066
+    },
+    {
+     "date": "2026-08-19",
+     "equity": 10002.627385144066
+    },
+    {
+     "date": "2026-08-20",
+     "equity": 10002.627385144066
+    },
+    {
+     "date": "2026-08-21",
+     "equity": 10002.627385144066
+    },
+    {
+     "date": "2026-08-24",
+     "equity": 10002.627385144066
+    },
+    {
+     "date": "2026-08-25",
+     "equity": 9913.02764738533
+    },
+    {
+     "date": "2026-08-26",
+     "equity": 9913.02764738533
+    },
+    {
+     "date": "2026-08-27",
+     "equity": 9923.775019459757
+    },
+    {
+     "date": "2026-08-28",
+     "equity": 9923.775019459757
+    },
+    {
+     "date": "2026-08-31",
+     "equity": 9910.400139122585
+    },
+    {
+     "date": "2026-09-01",
+     "equity": 9911.027690115707
+    },
+    {
+     "date": "2026-09-02",
+     "equity": 9889.666703818095
+    },
+    {
+     "date": "2026-09-03",
+     "equity": 9816.07660968368
+    },
+    {
+     "date": "2026-09-04",
+     "equity": 9816.07660968368
+    },
+    {
+     "date": "2026-09-07",
+     "equity": 9816.07660968368
+    },
+    {
+     "date": "2026-09-08",
+     "equity": 9816.07660968368
+    },
+    {
+     "date": "2026-09-09",
+     "equity": 9816.07660968368
+    },
+    {
+     "date": "2026-09-10",
+     "equity": 9816.07660968368
+    }
+   ]
+  },
+  "S3": {
+   "name": "Contra-apertura",
+   "symbols": [
+    "QQQ",
+    "PSQ"
+   ],
+   "signal_symbol": "QQQ",
+   "equity": 10130.928815744437,
+   "equity_start": 10000.0,
+   "status": "activo",
+   "status_detail": "",
+   "open_position": null,
+   "metrics": {
+    "n_trades": 17,
+    "win_rate": 0.5882352941176471,
+    "profit_factor": 1.2734052826726412,
+    "avg_pnl": 7.7016950437904255,
+    "total_pnl": 130.92881574443723,
+    "return_pct": 0.013092881574443771,
+    "sharpe": 1.084926176588906,
+    "max_drawdown": 0.021952987432826736
+   },
+   "avg_delay_bps": 2.9551510878695577,
+   "curve": [
+    {
+     "date": "2026-07-10",
+     "equity": 10000.0
+    },
+    {
+     "date": "2026-07-13",
+     "equity": 10000.0
+    },
+    {
+     "date": "2026-07-14",
+     "equity": 9944.88277046878
+    },
+    {
+     "date": "2026-07-15",
+     "equity": 9965.03142894929
+    },
+    {
+     "date": "2026-07-16",
+     "equity": 9965.03142894929
+    },
+    {
+     "date": "2026-07-17",
+     "equity": 9999.510700869532
+    },
+    {
+     "date": "2026-07-20",
+     "equity": 10032.409841551555
+    },
+    {
+     "date": "2026-07-21",
+     "equity": 10032.409841551555
+    },
+    {
+     "date": "2026-07-22",
+     "equity": 10142.25209027568
+    },
+    {
+     "date": "2026-07-23",
+     "equity": 10142.25209027568
+    },
+    {
+     "date": "2026-07-24",
+     "equity": 10142.25209027568
+    },
+    {
+     "date": "2026-07-27",
+     "equity": 10142.25209027568
+    },
+    {
+     "date": "2026-07-28",
+     "equity": 10188.208458160443
+    },
+    {
+     "date": "2026-07-29",
+     "equity": 10188.208458160443
+    },
+    {
+     "date": "2026-07-30",
+     "equity": 10188.208458160443
+    },
+    {
+     "date": "2026-07-31",
+     "equity": 10188.208458160443
+    },
+    {
+     "date": "2026-08-03",
+     "equity": 10188.208458160443
+    },
+    {
+     "date": "2026-08-04",
+     "equity": 10192.419526762646
+    },
+    {
+     "date": "2026-08-05",
+     "equity": 10192.419526762646
+    },
+    {
+     "date": "2026-08-06",
+     "equity": 10192.419526762646
+    },
+    {
+     "date": "2026-08-07",
+     "equity": 10192.419526762646
+    },
+    {
+     "date": "2026-08-10",
+     "equity": 10097.800814375052
+    },
+    {
+     "date": "2026-08-11",
+     "equity": 10216.997524552195
+    },
+    {
+     "date": "2026-08-12",
+     "equity": 10308.105737081729
+    },
+    {
+     "date": "2026-08-13",
+     "equity": 10308.105737081729
+    },
+    {
+     "date": "2026-08-14",
+     "equity": 10308.105737081729
+    },
+    {
+     "date": "2026-08-17",
+     "equity": 10252.546604575919
+    },
+    {
+     "date": "2026-08-18",
+     "equity": 10252.546604575919
+    },
+    {
+     "date": "2026-08-19",
+     "equity": 10188.351292994314
+    },
+    {
+     "date": "2026-08-20",
+     "equity": 10188.351292994314
+    },
+    {
+     "date": "2026-08-21",
+     "equity": 10160.911884004687
+    },
+    {
+     "date": "2026-08-24",
+     "equity": 10160.911884004687
+    },
+    {
+     "date": "2026-08-25",
+     "equity": 10160.911884004687
+    },
+    {
+     "date": "2026-08-26",
+     "equity": 10160.911884004687
+    },
+    {
+     "date": "2026-08-27",
+     "equity": 10263.764033145055
+    },
+    {
+     "date": "2026-08-28",
+     "equity": 10170.052838005984
+    },
+    {
+     "date": "2026-08-31",
+     "equity": 10170.052838005984
+    },
+    {
+     "date": "2026-09-01",
+     "equity": 10081.812021379325
+    },
+    {
+     "date": "2026-09-02",
+     "equity": 10130.928815744437
+    },
+    {
+     "date": "2026-09-03",
+     "equity": 10130.928815744437
+    },
+    {
+     "date": "2026-09-04",
+     "equity": 10130.928815744437
+    },
+    {
+     "date": "2026-09-07",
+     "equity": 10130.928815744437
+    },
+    {
+     "date": "2026-09-08",
+     "equity": 10130.928815744437
+    },
+    {
+     "date": "2026-09-09",
+     "equity": 10130.928815744437
+    },
+    {
+     "date": "2026-09-10",
+     "equity": 10130.928815744437
+    }
+   ]
+  }
+ },
+ "trades": [
+  {
+   "date": "2026-09-10",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 280,
+   "entry_price": 23.91,
+   "exit_price": 24.51,
+   "pnl_gross": 168.15435390893924,
+   "pnl_net_5bps": 161.37658110262143,
+   "pnl_net_10bps": 154.59880829630362,
+   "pnl_booked": 154.59880829630362,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 7.36490921563609,
+   "entry_ts": "2026-09-13T00:30:32.398-04:00",
+   "exit_ts": "2026-09-13T00:30:32.398-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-09",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 232,
+   "entry_price": 24.02,
+   "exit_price": 24.01,
+   "pnl_gross": -0.634444922454918,
+   "pnl_net_5bps": -6.206022628887677,
+   "pnl_net_10bps": -11.777600335320436,
+   "pnl_booked": -11.777600335320436,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 2.980309664480989,
+   "entry_ts": "2026-09-13T00:30:32.398-04:00",
+   "exit_ts": "2026-09-13T00:30:32.398-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-08",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 259,
+   "entry_price": 23.1,
+   "exit_price": 22.83,
+   "pnl_gross": -69.59962111010424,
+   "pnl_net_5bps": -75.54694863577785,
+   "pnl_net_10bps": -81.49427616145148,
+   "pnl_booked": -81.49427616145148,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 1.3131293400187911,
+   "entry_ts": "2026-09-13T00:30:32.398-04:00",
+   "exit_ts": "2026-09-13T00:30:32.398-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-07",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 99,
+   "entry_price": 78.98,
+   "exit_price": 78.5,
+   "pnl_gross": -47.84217238340129,
+   "pnl_net_5bps": -55.637200060021875,
+   "pnl_net_10bps": -63.43222773664246,
+   "pnl_booked": -63.43222773664246,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 8.161904285586887,
+   "entry_ts": "2026-09-13T00:30:32.397-04:00",
+   "exit_ts": "2026-09-13T00:30:32.397-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-04",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 77,
+   "entry_price": 78.97,
+   "exit_price": 79.33,
+   "pnl_gross": 28.108840008679152,
+   "pnl_net_5bps": 22.01440087683448,
+   "pnl_net_10bps": 15.919961744989806,
+   "pnl_booked": 15.919961744989806,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 1.7483062582992568,
+   "entry_ts": "2026-09-13T00:30:32.397-04:00",
+   "exit_ts": "2026-09-13T00:30:32.397-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-03",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 248,
+   "entry_price": 23.81,
+   "exit_price": 24.34,
+   "pnl_gross": 132.89933855614197,
+   "pnl_net_5bps": 126.92860959502045,
+   "pnl_net_10bps": 120.95788063389892,
+   "pnl_booked": 120.95788063389892,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 3.589540234630353,
+   "entry_ts": "2026-09-13T00:30:32.397-04:00",
+   "exit_ts": "2026-09-13T00:30:32.397-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-03",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 271,
+   "entry_price": 36.37,
+   "exit_price": 36.17,
+   "pnl_gross": -53.93084636512872,
+   "pnl_net_5bps": -63.76047024977228,
+   "pnl_net_10bps": -73.59009413441584,
+   "pnl_booked": -73.59009413441584,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 3.5238325016886503,
+   "entry_ts": "2026-09-13T00:30:32.397-04:00",
+   "exit_ts": "2026-09-13T00:30:32.397-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-02",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 56,
+   "entry_price": 81.12,
+   "exit_price": 80.04,
+   "pnl_gross": -60.45443814727025,
+   "pnl_net_5bps": -64.9667988337748,
+   "pnl_net_10bps": -69.47915952027934,
+   "pnl_booked": -69.47915952027934,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 0.010396390759556784,
+   "entry_ts": "2026-09-13T00:30:32.396-04:00",
+   "exit_ts": "2026-09-13T00:30:32.397-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-02",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 284,
+   "entry_price": 34.83,
+   "exit_price": 34.83,
+   "pnl_gross": -1.577513207911636,
+   "pnl_net_5bps": -11.469249752761634,
+   "pnl_net_10bps": -21.360986297611632,
+   "pnl_booked": -21.360986297611632,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 0.8236486605332161,
+   "entry_ts": "2026-09-13T00:30:32.397-04:00",
+   "exit_ts": "2026-09-13T00:30:32.397-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-02",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 300,
+   "entry_price": 33.52,
+   "exit_price": 33.75,
+   "pnl_gross": 69.29801632927308,
+   "pnl_net_5bps": 59.20740534719303,
+   "pnl_net_10bps": 49.11679436511298,
+   "pnl_booked": 49.11679436511298,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 2.030713570075833,
+   "entry_ts": "2026-09-13T00:30:32.397-04:00",
+   "exit_ts": "2026-09-13T00:30:32.397-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-01",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 179,
+   "entry_price": 24.13,
+   "exit_price": 23.87,
+   "pnl_gross": -46.19809797372736,
+   "pnl_net_5bps": -50.49407640773417,
+   "pnl_net_10bps": -54.79005484174098,
+   "pnl_booked": -54.79005484174098,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 2.0084202297411373,
+   "entry_ts": "2026-09-13T00:30:32.396-04:00",
+   "exit_ts": "2026-09-13T00:30:32.396-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-01",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 16,
+   "entry_price": 585.37,
+   "exit_price": 586.59,
+   "pnl_gross": 19.3788956357821,
+   "pnl_net_5bps": 10.003223314451956,
+   "pnl_net_10bps": 0.6275509931218117,
+   "pnl_booked": 0.6275509931218117,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 2.4186383869017485,
+   "entry_ts": "2026-09-13T00:30:32.396-04:00",
+   "exit_ts": "2026-09-13T00:30:32.396-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-09-01",
+   "strategy": "S3",
+   "symbol": "QQQ",
+   "qty": 18,
+   "entry_price": 551.65,
+   "exit_price": 547.84,
+   "pnl_gross": -68.44995301516656,
+   "pnl_net_5bps": -78.34538482091327,
+   "pnl_net_10bps": -88.24081662665998,
+   "pnl_booked": -88.24081662665998,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 5.105912658668776,
+   "entry_ts": "2026-09-13T00:30:32.396-04:00",
+   "exit_ts": "2026-09-13T00:30:32.396-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-31",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 15,
+   "entry_price": 622.21,
+   "exit_price": 622.56,
+   "pnl_gross": 5.296669507740717,
+   "pnl_net_5bps": -4.039105414715639,
+   "pnl_net_10bps": -13.374880337171994,
+   "pnl_booked": -13.374880337171994,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 1.320517170761439,
+   "entry_ts": "2026-09-13T00:30:32.396-04:00",
+   "exit_ts": "2026-09-13T00:30:32.396-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-28",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 55,
+   "entry_price": 77.66,
+   "exit_price": 78.32,
+   "pnl_gross": 36.23532605713116,
+   "pnl_net_5bps": 31.94586698809178,
+   "pnl_net_10bps": 27.6564079190524,
+   "pnl_booked": 27.6564079190524,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 5.559682396721891,
+   "entry_ts": "2026-09-13T00:30:32.396-04:00",
+   "exit_ts": "2026-09-13T00:30:32.396-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-28",
+   "strategy": "S3",
+   "symbol": "QQQ",
+   "qty": 18,
+   "entry_price": 547.39,
+   "exit_price": 543.28,
+   "pnl_gross": -74.07911497860118,
+   "pnl_net_5bps": -83.89515505883618,
+   "pnl_net_10bps": -93.71119513907118,
+   "pnl_booked": -93.71119513907118,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 4.4484662496011325,
+   "entry_ts": "2026-09-13T00:30:32.396-04:00",
+   "exit_ts": "2026-09-13T00:30:32.396-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-27",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 264,
+   "entry_price": 24.13,
+   "exit_price": 24.07,
+   "pnl_gross": -14.548680615745354,
+   "pnl_net_5bps": -20.91088493318859,
+   "pnl_net_10bps": -27.273089250631827,
+   "pnl_booked": -27.273089250631827,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 2.8691455350935438,
+   "entry_ts": "2026-09-13T00:30:32.395-04:00",
+   "exit_ts": "2026-09-13T00:30:32.395-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-27",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 272,
+   "entry_price": 36.41,
+   "exit_price": 36.52,
+   "pnl_gross": 30.58448619474848,
+   "pnl_net_5bps": 20.66592913458839,
+   "pnl_net_10bps": 10.747372074428299,
+   "pnl_booked": 10.747372074428299,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 0.33652364708762006,
+   "entry_ts": "2026-09-13T00:30:32.395-04:00",
+   "exit_ts": "2026-09-13T00:30:32.395-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-27",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 263,
+   "entry_price": 33.24,
+   "exit_price": 33.7,
+   "pnl_gross": 120.45663673153398,
+   "pnl_net_5bps": 111.65439293595105,
+   "pnl_net_10bps": 102.85214914036813,
+   "pnl_booked": 102.85214914036813,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 3.243322053835626,
+   "entry_ts": "2026-09-13T00:30:32.395-04:00",
+   "exit_ts": "2026-09-13T00:30:32.395-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-26",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 311,
+   "entry_price": 24.69,
+   "exit_price": 24.94,
+   "pnl_gross": 77.52039833411563,
+   "pnl_net_5bps": 69.80293153708699,
+   "pnl_net_10bps": 62.08546474005835,
+   "pnl_booked": 62.08546474005835,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 2.1220338311973843,
+   "entry_ts": "2026-09-13T00:30:32.395-04:00",
+   "exit_ts": "2026-09-13T00:30:32.395-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-25",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 192,
+   "entry_price": 23.96,
+   "exit_price": 23.97,
+   "pnl_gross": 1.5180118705520727,
+   "pnl_net_5bps": -3.083254540856866,
+   "pnl_net_10bps": -7.684520952265805,
+   "pnl_booked": -7.684520952265805,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 2.9742252246241057,
+   "entry_ts": "2026-09-13T00:30:32.395-04:00",
+   "exit_ts": "2026-09-13T00:30:32.395-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-25",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 284,
+   "entry_price": 35.15,
+   "exit_price": 34.9,
+   "pnl_gross": -69.70499328165133,
+   "pnl_net_5bps": -79.6523655201937,
+   "pnl_net_10bps": -89.59973775873608,
+   "pnl_booked": -89.59973775873608,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 3.595270752263805,
+   "entry_ts": "2026-09-13T00:30:32.395-04:00",
+   "exit_ts": "2026-09-13T00:30:32.395-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-24",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 304,
+   "entry_price": 24.02,
+   "exit_price": 24.11,
+   "pnl_gross": 28.71761030533679,
+   "pnl_net_5bps": 21.402636146659773,
+   "pnl_net_10bps": 14.087661987982756,
+   "pnl_booked": 14.087661987982756,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 2.3965500067983894,
+   "entry_ts": "2026-09-13T00:30:32.394-04:00",
+   "exit_ts": "2026-09-13T00:30:32.394-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-21",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 198,
+   "entry_price": 24.65,
+   "exit_price": 24.14,
+   "pnl_gross": -100.45053280972274,
+   "pnl_net_5bps": -105.28125450807926,
+   "pnl_net_10bps": -110.11197620643577,
+   "pnl_booked": -110.11197620643577,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 2.827431952919377,
+   "entry_ts": "2026-09-13T00:30:32.394-04:00",
+   "exit_ts": "2026-09-13T00:30:32.394-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-21",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 296,
+   "entry_price": 31.75,
+   "exit_price": 31.72,
+   "pnl_gross": -8.653416559658439,
+   "pnl_net_5bps": -18.046412774642796,
+   "pnl_net_10bps": -27.43940898962715,
+   "pnl_booked": -27.43940898962715,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 4.22351804254839,
+   "entry_ts": "2026-09-13T00:30:32.394-04:00",
+   "exit_ts": "2026-09-13T00:30:32.394-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-20",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 204,
+   "entry_price": 23.7,
+   "exit_price": 24.09,
+   "pnl_gross": 79.84588294406716,
+   "pnl_net_5bps": 74.97152069885915,
+   "pnl_net_10bps": 70.09715845365116,
+   "pnl_booked": 70.09715845365116,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 1.631575386454478,
+   "entry_ts": "2026-09-13T00:30:32.394-04:00",
+   "exit_ts": "2026-09-13T00:30:32.394-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-19",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 90,
+   "entry_price": 76.18,
+   "exit_price": 76.42,
+   "pnl_gross": 21.754532999676144,
+   "pnl_net_5bps": 14.887521910744335,
+   "pnl_net_10bps": 8.020510821812525,
+   "pnl_booked": 8.020510821812525,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 2.8008330666780856,
+   "entry_ts": "2026-09-13T00:30:32.394-04:00",
+   "exit_ts": "2026-09-13T00:30:32.394-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-19",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 310,
+   "entry_price": 33.0,
+   "exit_price": 32.86,
+   "pnl_gross": -43.78030474325193,
+   "pnl_net_5bps": -53.987808162428756,
+   "pnl_net_10bps": -64.19531158160558,
+   "pnl_booked": -64.19531158160558,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 5.682979637100605,
+   "entry_ts": "2026-09-13T00:30:32.394-04:00",
+   "exit_ts": "2026-09-13T00:30:32.394-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-18",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 89,
+   "entry_price": 75.35,
+   "exit_price": 75.0,
+   "pnl_gross": -31.256390774016154,
+   "pnl_net_5bps": -37.94693033455877,
+   "pnl_net_10bps": -44.63746989510138,
+   "pnl_booked": -44.63746989510138,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 5.137726428854645,
+   "entry_ts": "2026-09-13T00:30:32.393-04:00",
+   "exit_ts": "2026-09-13T00:30:32.393-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-18",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 16,
+   "entry_price": 595.41,
+   "exit_price": 599.15,
+   "pnl_gross": 59.81807737704912,
+   "pnl_net_5bps": 50.26156970277827,
+   "pnl_net_10bps": 40.70506202850741,
+   "pnl_booked": 40.70506202850741,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 7.041446371163016,
+   "entry_ts": "2026-09-13T00:30:32.393-04:00",
+   "exit_ts": "2026-09-13T00:30:32.393-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-17",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 59,
+   "entry_price": 79.02,
+   "exit_price": 82.57,
+   "pnl_gross": 209.50945498467883,
+   "pnl_net_5bps": 204.74234618926013,
+   "pnl_net_10bps": 199.97523739384147,
+   "pnl_booked": 199.97523739384147,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 6.85415114328047,
+   "entry_ts": "2026-09-13T00:30:32.393-04:00",
+   "exit_ts": "2026-09-13T00:30:32.393-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-17",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 264,
+   "entry_price": 34.53,
+   "exit_price": 34.39,
+   "pnl_gross": -37.36364880045193,
+   "pnl_net_5bps": -46.46139065313138,
+   "pnl_net_10bps": -55.55913250581084,
+   "pnl_booked": -55.55913250581084,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 3.28465972099499,
+   "entry_ts": "2026-09-13T00:30:32.393-04:00",
+   "exit_ts": "2026-09-13T00:30:32.393-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-14",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 57,
+   "entry_price": 78.68,
+   "exit_price": 78.34,
+   "pnl_gross": -19.48017986712985,
+   "pnl_net_5bps": -23.95508822700161,
+   "pnl_net_10bps": -28.429996586873372,
+   "pnl_booked": -28.429996586873372,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 0.8712180278104333,
+   "entry_ts": "2026-09-13T00:30:32.393-04:00",
+   "exit_ts": "2026-09-13T00:30:32.393-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-13",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 100,
+   "entry_price": 77.81,
+   "exit_price": 78.1,
+   "pnl_gross": 29.398375240357666,
+   "pnl_net_5bps": 21.603055031056172,
+   "pnl_net_10bps": 13.807734821754677,
+   "pnl_booked": 13.807734821754677,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 4.650818909529955,
+   "entry_ts": "2026-09-13T00:30:32.393-04:00",
+   "exit_ts": "2026-09-13T00:30:32.393-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-13",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 17,
+   "entry_price": 576.37,
+   "exit_price": 578.21,
+   "pnl_gross": 31.297597655687127,
+   "pnl_net_5bps": 21.483595061236777,
+   "pnl_net_10bps": 11.669592466786423,
+   "pnl_booked": 11.669592466786423,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 3.3754568692500015,
+   "entry_ts": "2026-09-13T00:30:32.393-04:00",
+   "exit_ts": "2026-09-13T00:30:32.393-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-12",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 78,
+   "entry_price": 79.08,
+   "exit_price": 78.64,
+   "pnl_gross": -33.94499059551367,
+   "pnl_net_5bps": -40.09610215641848,
+   "pnl_net_10bps": -46.24721371732329,
+   "pnl_booked": -46.24721371732329,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 6.526328643320614,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-12",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 16,
+   "entry_price": 612.41,
+   "exit_price": 610.06,
+   "pnl_gross": -37.70659915286342,
+   "pnl_net_5bps": -47.48634556235393,
+   "pnl_net_10bps": -57.266091971844446,
+   "pnl_booked": -57.266091971844446,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 6.6419412145409265,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-12",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 304,
+   "entry_price": 33.53,
+   "exit_price": 33.9,
+   "pnl_gross": 111.60891578812164,
+   "pnl_net_5bps": 101.35856415882827,
+   "pnl_net_10bps": 91.10821252953491,
+   "pnl_booked": 91.10821252953491,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 1.5868979126891363,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-11",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 336,
+   "entry_price": 24.27,
+   "exit_price": 23.97,
+   "pnl_gross": -99.7567834542129,
+   "pnl_net_5bps": -107.8611027043553,
+   "pnl_net_10bps": -115.96542195449771,
+   "pnl_booked": -115.96542195449771,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 2.2820496450061207,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-11",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 279,
+   "entry_price": 35.48,
+   "exit_price": 35.92,
+   "pnl_gross": 122.33167228908746,
+   "pnl_net_5bps": 112.37053620044303,
+   "pnl_net_10bps": 102.40940011179859,
+   "pnl_booked": 102.40940011179859,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 4.376222173355806,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-11",
+   "strategy": "S3",
+   "symbol": "QQQ",
+   "qty": 17,
+   "entry_price": 564.5,
+   "exit_price": 572.65,
+   "pnl_gross": 138.5281251551928,
+   "pnl_net_5bps": 128.86241766616783,
+   "pnl_net_10bps": 119.19671017714285,
+   "pnl_booked": 119.19671017714285,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 1.046474435469431,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-10",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 278,
+   "entry_price": 35.79,
+   "exit_price": 35.66,
+   "pnl_gross": -34.71671610894386,
+   "pnl_net_5bps": -44.64793063065987,
+   "pnl_net_10bps": -54.57914515237589,
+   "pnl_booked": -54.57914515237589,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 2.981462301475248,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-10",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 311,
+   "entry_price": 32.71,
+   "exit_price": 32.47,
+   "pnl_gross": -74.34955781349703,
+   "pnl_net_5bps": -84.48413510054519,
+   "pnl_net_10bps": -94.61871238759335,
+   "pnl_booked": -94.61871238759335,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 3.1654299499298144,
+   "entry_ts": "2026-09-13T00:30:32.392-04:00",
+   "exit_ts": "2026-09-13T00:30:32.392-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-07",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 82,
+   "entry_price": 76.65,
+   "exit_price": 77.33,
+   "pnl_gross": 55.76709853847126,
+   "pnl_net_5bps": 49.45378325917915,
+   "pnl_net_10bps": 43.140467979887035,
+   "pnl_booked": 43.140467979887035,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 1.9945232715168844,
+   "entry_ts": "2026-09-13T00:30:32.391-04:00",
+   "exit_ts": "2026-09-13T00:30:32.391-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-06",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 73,
+   "entry_price": 75.17,
+   "exit_price": 75.05,
+   "pnl_gross": -9.055963060554333,
+   "pnl_net_5bps": -14.539024835263398,
+   "pnl_net_10bps": -20.02208660997246,
+   "pnl_booked": -20.02208660997246,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 3.035852447179437,
+   "entry_ts": "2026-09-13T00:30:32.391-04:00",
+   "exit_ts": "2026-09-13T00:30:32.391-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-05",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 16,
+   "entry_price": 604.17,
+   "exit_price": 604.87,
+   "pnl_gross": 11.207924336440556,
+   "pnl_net_5bps": 1.5355584174103782,
+   "pnl_net_10bps": -8.1368075016198,
+   "pnl_booked": -8.1368075016198,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 0.4191742727138674,
+   "entry_ts": "2026-09-13T00:30:32.391-04:00",
+   "exit_ts": "2026-09-13T00:30:32.391-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-04",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 219,
+   "entry_price": 23.68,
+   "exit_price": 24.12,
+   "pnl_gross": 96.39710271265467,
+   "pnl_net_5bps": 91.16352581403967,
+   "pnl_net_10bps": 85.92994891542466,
+   "pnl_booked": 85.92994891542466,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 4.723072848713896,
+   "entry_ts": "2026-09-13T00:30:32.391-04:00",
+   "exit_ts": "2026-09-13T00:30:32.391-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-04",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 16,
+   "entry_price": 592.79,
+   "exit_price": 597.78,
+   "pnl_gross": 79.88670375601032,
+   "pnl_net_5bps": 70.36216963224967,
+   "pnl_net_10bps": 60.83763550848903,
+   "pnl_booked": 60.83763550848903,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 0.5183193125821055,
+   "entry_ts": "2026-09-13T00:30:32.391-04:00",
+   "exit_ts": "2026-09-13T00:30:32.391-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-04",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 304,
+   "entry_price": 33.17,
+   "exit_price": 33.25,
+   "pnl_gross": 24.403710834392655,
+   "pnl_net_5bps": 14.307389718297216,
+   "pnl_net_10bps": 4.211068602201777,
+   "pnl_booked": 4.211068602201777,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 0.7470510135190369,
+   "entry_ts": "2026-09-13T00:30:32.391-04:00",
+   "exit_ts": "2026-09-13T00:30:32.391-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-08-03",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 274,
+   "entry_price": 36.23,
+   "exit_price": 36.12,
+   "pnl_gross": -29.44782632459261,
+   "pnl_net_5bps": -39.359647034242016,
+   "pnl_net_10bps": -49.27146774389143,
+   "pnl_booked": -49.27146774389143,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 3.152509837601105,
+   "entry_ts": "2026-09-13T00:30:32.390-04:00",
+   "exit_ts": "2026-09-13T00:30:32.390-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-30",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 178,
+   "entry_price": 23.61,
+   "exit_price": 23.99,
+   "pnl_gross": 67.45222158142778,
+   "pnl_net_5bps": 63.215166173354994,
+   "pnl_net_10bps": 58.97811076528221,
+   "pnl_booked": 58.97811076528221,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 2.8074790163068783,
+   "entry_ts": "2026-09-13T00:30:32.390-04:00",
+   "exit_ts": "2026-09-13T00:30:32.390-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-30",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 281,
+   "entry_price": 35.57,
+   "exit_price": 35.4,
+   "pnl_gross": -45.416535640149945,
+   "pnl_net_5bps": -55.38786316174249,
+   "pnl_net_10bps": -65.35919068333503,
+   "pnl_booked": -65.35919068333503,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 0.7168181469360078,
+   "entry_ts": "2026-09-13T00:30:32.390-04:00",
+   "exit_ts": "2026-09-13T00:30:32.390-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-29",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 278,
+   "entry_price": 36.18,
+   "exit_price": 36.1,
+   "pnl_gross": -22.747430106292626,
+   "pnl_net_5bps": -32.795361064055555,
+   "pnl_net_10bps": -42.843292021818485,
+   "pnl_booked": -42.843292021818485,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 4.635480938017539,
+   "entry_ts": "2026-09-13T00:30:32.390-04:00",
+   "exit_ts": "2026-09-13T00:30:32.390-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-28",
+   "strategy": "S3",
+   "symbol": "QQQ",
+   "qty": 18,
+   "entry_price": 562.49,
+   "exit_price": 566.17,
+   "pnl_gross": 66.27224008855251,
+   "pnl_net_5bps": 56.114303986657944,
+   "pnl_net_10bps": 45.95636788476338,
+   "pnl_booked": 45.95636788476338,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 6.104324249636597,
+   "entry_ts": "2026-09-13T00:30:32.390-04:00",
+   "exit_ts": "2026-09-13T00:30:32.390-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-28",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 104,
+   "entry_price": 76.55,
+   "exit_price": 76.45,
+   "pnl_gross": -9.618503853744414,
+   "pnl_net_5bps": -17.57454075305543,
+   "pnl_net_10bps": -25.53057765236645,
+   "pnl_booked": -25.53057765236645,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 4.594247289689,
+   "entry_ts": "2026-09-13T00:30:32.389-04:00",
+   "exit_ts": "2026-09-13T00:30:32.389-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-28",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 278,
+   "entry_price": 36.1,
+   "exit_price": 36.24,
+   "pnl_gross": 38.23808420387054,
+   "pnl_net_5bps": 28.18266710238794,
+   "pnl_net_10bps": 18.127250000905338,
+   "pnl_booked": 18.127250000905338,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 0.009326088290275703,
+   "entry_ts": "2026-09-13T00:30:32.389-04:00",
+   "exit_ts": "2026-09-13T00:30:32.389-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-27",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 66,
+   "entry_price": 76.22,
+   "exit_price": 75.73,
+   "pnl_gross": -32.15863331189075,
+   "pnl_net_5bps": -37.17298290052014,
+   "pnl_net_10bps": -42.187332489149526,
+   "pnl_booked": -42.187332489149526,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 0.3301999276643297,
+   "entry_ts": "2026-09-13T00:30:32.389-04:00",
+   "exit_ts": "2026-09-13T00:30:32.389-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-24",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 83,
+   "entry_price": 78.07,
+   "exit_price": 78.45,
+   "pnl_gross": 31.8153221803896,
+   "pnl_net_5bps": 25.31985073721239,
+   "pnl_net_10bps": 18.82437929403518,
+   "pnl_booked": 18.82437929403518,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 1.9558973234531971,
+   "entry_ts": "2026-09-13T00:30:32.389-04:00",
+   "exit_ts": "2026-09-13T00:30:32.389-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-24",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 282,
+   "entry_price": 35.29,
+   "exit_price": 35.65,
+   "pnl_gross": 101.91909412062707,
+   "pnl_net_5bps": 91.91685614846985,
+   "pnl_net_10bps": 81.91461817631262,
+   "pnl_booked": 81.91461817631262,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 2.4839719174969423,
+   "entry_ts": "2026-09-13T00:30:32.389-04:00",
+   "exit_ts": "2026-09-13T00:30:32.389-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-23",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 80,
+   "entry_price": 76.47,
+   "exit_price": 76.03,
+   "pnl_gross": -35.39690729773383,
+   "pnl_net_5bps": -41.49692494997616,
+   "pnl_net_10bps": -47.59694260221849,
+   "pnl_booked": -47.59694260221849,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 3.771651984114359,
+   "entry_ts": "2026-09-13T00:30:32.389-04:00",
+   "exit_ts": "2026-09-13T00:30:32.389-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-22",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 194,
+   "entry_price": 23.51,
+   "exit_price": 24.22,
+   "pnl_gross": 136.02553196345036,
+   "pnl_net_5bps": 131.39569564347053,
+   "pnl_net_10bps": 126.76585932349067,
+   "pnl_booked": 126.76585932349067,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 0.4633560418527618,
+   "entry_ts": "2026-09-13T00:30:32.388-04:00",
+   "exit_ts": "2026-09-13T00:30:32.388-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-22",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 16,
+   "entry_price": 606.16,
+   "exit_price": 606.77,
+   "pnl_gross": 9.832317585793135,
+   "pnl_net_5bps": 0.12891676127273577,
+   "pnl_net_10bps": -9.574484063247663,
+   "pnl_booked": -9.574484063247663,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 3.9546437530710734,
+   "entry_ts": "2026-09-13T00:30:32.388-04:00",
+   "exit_ts": "2026-09-13T00:30:32.388-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-22",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 299,
+   "entry_price": 33.51,
+   "exit_price": 33.95,
+   "pnl_gross": 130.01283350072416,
+   "pnl_net_5bps": 119.9275411124249,
+   "pnl_net_10bps": 109.84224872412565,
+   "pnl_booked": 109.84224872412565,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 2.1302338085727017,
+   "entry_ts": "2026-09-13T00:30:32.388-04:00",
+   "exit_ts": "2026-09-13T00:30:32.388-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-20",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 169,
+   "entry_price": 24.49,
+   "exit_price": 24.72,
+   "pnl_gross": 39.658596098651415,
+   "pnl_net_5bps": 35.50006271586143,
+   "pnl_net_10bps": 31.34152933307145,
+   "pnl_booked": 31.34152933307145,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 4.011693849386137,
+   "entry_ts": "2026-09-13T00:30:32.388-04:00",
+   "exit_ts": "2026-09-13T00:30:32.388-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-20",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 300,
+   "entry_price": 33.22,
+   "exit_price": 33.4,
+   "pnl_gross": 52.88494295965336,
+   "pnl_net_5bps": 42.89204182083748,
+   "pnl_net_10bps": 32.899140682021596,
+   "pnl_booked": 32.899140682021596,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 0.32064635114124407,
+   "entry_ts": "2026-09-13T00:30:32.388-04:00",
+   "exit_ts": "2026-09-13T00:30:32.388-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-17",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 184,
+   "entry_price": 23.66,
+   "exit_price": 23.12,
+   "pnl_gross": -98.5754130265496,
+   "pnl_net_5bps": -102.87930091782371,
+   "pnl_net_10bps": -107.18318880909784,
+   "pnl_booked": -107.18318880909784,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 6.89742051968127,
+   "entry_ts": "2026-09-13T00:30:32.387-04:00",
+   "exit_ts": "2026-09-13T00:30:32.387-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-17",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 15,
+   "entry_price": 646.76,
+   "exit_price": 649.01,
+   "pnl_gross": 33.722247121903024,
+   "pnl_net_5bps": 24.003970739081563,
+   "pnl_net_10bps": 14.285694356260102,
+   "pnl_booked": 14.285694356260102,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 0.13662104510991835,
+   "entry_ts": "2026-09-13T00:30:32.387-04:00",
+   "exit_ts": "2026-09-13T00:30:32.387-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-17",
+   "strategy": "S3",
+   "symbol": "QQQ",
+   "qty": 17,
+   "entry_price": 574.36,
+   "exit_price": 577.54,
+   "pnl_gross": 54.061417461512065,
+   "pnl_net_5bps": 44.27034469087717,
+   "pnl_net_10bps": 34.47927192024227,
+   "pnl_booked": 34.47927192024227,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 4.608850570579742,
+   "entry_ts": "2026-09-13T00:30:32.387-04:00",
+   "exit_ts": "2026-09-13T00:30:32.387-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-16",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 180,
+   "entry_price": 23.65,
+   "exit_price": 23.09,
+   "pnl_gross": -99.3284157937537,
+   "pnl_net_5bps": -103.53516565993586,
+   "pnl_net_10bps": -107.741915526118,
+   "pnl_booked": -107.741915526118,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 3.478702192749009,
+   "entry_ts": "2026-09-13T00:30:32.387-04:00",
+   "exit_ts": "2026-09-13T00:30:32.387-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-15",
+   "strategy": "S1",
+   "symbol": "SQQQ",
+   "qty": 192,
+   "entry_price": 24.37,
+   "exit_price": 24.77,
+   "pnl_gross": 77.23717699368558,
+   "pnl_net_5bps": 72.51985173804667,
+   "pnl_net_10bps": 67.80252648240777,
+   "pnl_booked": 67.80252648240777,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 4.338671379642002,
+   "entry_ts": "2026-09-13T00:30:32.387-04:00",
+   "exit_ts": "2026-09-13T00:30:32.387-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-15",
+   "strategy": "S3",
+   "symbol": "PSQ",
+   "qty": 275,
+   "entry_price": 33.62,
+   "exit_price": 33.76,
+   "pnl_gross": 38.68067973088678,
+   "pnl_net_5bps": 29.414669105699392,
+   "pnl_net_10bps": 20.148658480512005,
+   "pnl_booked": 20.148658480512005,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 1.34199007060637,
+   "entry_ts": "2026-09-13T00:30:32.387-04:00",
+   "exit_ts": "2026-09-13T00:30:32.387-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-14",
+   "strategy": "S3",
+   "symbol": "QQQ",
+   "qty": 17,
+   "entry_price": 560.86,
+   "exit_price": 558.74,
+   "pnl_gross": -36.083989543749226,
+   "pnl_net_5bps": -45.600609537484736,
+   "pnl_net_10bps": -55.11722953122025,
+   "pnl_booked": -55.11722953122025,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 1.166098198813056,
+   "entry_ts": "2026-09-13T00:30:32.386-04:00",
+   "exit_ts": "2026-09-13T00:30:32.387-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-14",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 98,
+   "entry_price": 77.09,
+   "exit_price": 76.8,
+   "pnl_gross": -29.0338219317303,
+   "pnl_net_5bps": -36.57438459997347,
+   "pnl_net_10bps": -44.11494726821663,
+   "pnl_booked": -44.11494726821663,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 2.3919767262458356,
+   "entry_ts": "2026-09-13T00:30:32.386-04:00",
+   "exit_ts": "2026-09-13T00:30:32.386-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-14",
+   "strategy": "S2",
+   "symbol": "SH",
+   "qty": 285,
+   "entry_price": 35.1,
+   "exit_price": 35.0,
+   "pnl_gross": -28.708791311942434,
+   "pnl_net_5bps": -38.69736356116053,
+   "pnl_net_10bps": -48.68593581037862,
+   "pnl_booked": -48.68593581037862,
+   "reason": "stop ejecutado en el servidor",
+   "source": "eod",
+   "delay_bps": 5.441842629799808,
+   "entry_ts": "2026-09-13T00:30:32.386-04:00",
+   "exit_ts": "2026-09-13T00:30:32.386-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-13",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 56,
+   "entry_price": 78.48,
+   "exit_price": 78.4,
+   "pnl_gross": -4.070780804066885,
+   "pnl_net_5bps": -8.463429175511333,
+   "pnl_net_10bps": -12.856077546955783,
+   "pnl_booked": -12.856077546955783,
+   "reason": "cierre de sesión 15:55",
+   "source": "eod",
+   "delay_bps": 2.7250274440945477,
+   "entry_ts": "2026-09-13T00:30:32.386-04:00",
+   "exit_ts": "2026-09-13T00:30:32.386-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-10",
+   "strategy": "S1",
+   "symbol": "TQQQ",
+   "qty": 68,
+   "entry_price": 78.8,
+   "exit_price": 78.45,
+   "pnl_gross": -23.883726918481557,
+   "pnl_net_5bps": -29.230037709870068,
+   "pnl_net_10bps": -34.57634850125858,
+   "pnl_booked": -34.57634850125858,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 3.516619506868743,
+   "entry_ts": "2026-09-13T00:30:32.385-04:00",
+   "exit_ts": "2026-09-13T00:30:32.386-04:00",
+   "entry_reason": "demo"
+  },
+  {
+   "date": "2026-07-10",
+   "strategy": "S2",
+   "symbol": "SPY",
+   "qty": 15,
+   "entry_price": 630.53,
+   "exit_price": 632.35,
+   "pnl_gross": 27.33771730720889,
+   "pnl_net_5bps": 17.86613237536235,
+   "pnl_net_10bps": 8.394547443515812,
+   "pnl_booked": 8.394547443515812,
+   "reason": "precio vuelve dentro de la banda",
+   "source": "eod",
+   "delay_bps": 5.670213926775997,
+   "entry_ts": "2026-09-13T00:30:32.386-04:00",
+   "exit_ts": "2026-09-13T00:30:32.386-04:00",
+   "entry_reason": "demo"
+  }
+ ],
+ "incidents": [
+  {
+   "ts": "2026-09-13T00:30:32.398-04:00",
+   "msg": "latencia de datos 2,4 s > límite; revisión omitida (demo)",
+   "extra": {
+    "date": "2026-09-10"
+   }
+  },
+  {
+   "ts": "2026-09-13T00:30:32.396-04:00",
+   "msg": "latencia de datos 2,4 s > límite; revisión omitida (demo)",
+   "extra": {
+    "date": "2026-08-28"
+   }
+  },
+  {
+   "ts": "2026-09-13T00:30:32.393-04:00",
+   "msg": "latencia de datos 2,4 s > límite; revisión omitida (demo)",
+   "extra": {
+    "date": "2026-08-17"
+   }
+  },
+  {
+   "ts": "2026-09-13T00:30:32.391-04:00",
+   "msg": "latencia de datos 2,4 s > límite; revisión omitida (demo)",
+   "extra": {
+    "date": "2026-08-04"
+   }
+  },
+  {
+   "ts": "2026-09-13T00:30:32.388-04:00",
+   "msg": "latencia de datos 2,4 s > límite; revisión omitida (demo)",
+   "extra": {
+    "date": "2026-07-22"
+   }
+  }
+ ],
+ "recent_checks": [],
+ "spy_curve": [
+  {
+   "date": "2026-07-10",
+   "equity": 10000.0
+  },
+  {
+   "date": "2026-07-13",
+   "equity": 9962.898024358934
+  },
+  {
+   "date": "2026-07-14",
+   "equity": 10015.341745201791
+  },
+  {
+   "date": "2026-07-15",
+   "equity": 10021.9167788597
+  },
+  {
+   "date": "2026-07-16",
+   "equity": 9927.361532922134
+  },
+  {
+   "date": "2026-07-17",
+   "equity": 9812.141895488276
+  },
+  {
+   "date": "2026-07-20",
+   "equity": 9799.774570274587
+  },
+  {
+   "date": "2026-07-21",
+   "equity": 9777.701242994459
+  },
+  {
+   "date": "2026-07-22",
+   "equity": 9683.772190738597
+  },
+  {
+   "date": "2026-07-23",
+   "equity": 9772.37859669996
+  },
+  {
+   "date": "2026-07-24",
+   "equity": 9739.190331569554
+  },
+  {
+   "date": "2026-07-27",
+   "equity": 9678.76264128495
+  },
+  {
+   "date": "2026-07-28",
+   "equity": 9582.485362722691
+  },
+  {
+   "date": "2026-07-29",
+   "equity": 9489.33905256896
+  },
+  {
+   "date": "2026-07-30",
+   "equity": 9434.703653840133
+  },
+  {
+   "date": "2026-07-31",
+   "equity": 9448.323366417233
+  },
+  {
+   "date": "2026-08-03",
+   "equity": 9462.569272676039
+  },
+  {
+   "date": "2026-08-04",
+   "equity": 9391.026644541156
+  },
+  {
+   "date": "2026-08-05",
+   "equity": 9376.154544600644
+  },
+  {
+   "date": "2026-08-06",
+   "equity": 9420.457747581328
+  },
+  {
+   "date": "2026-08-07",
+   "equity": 9527.380318732585
+  },
+  {
+   "date": "2026-08-10",
+   "equity": 9451.454334825761
+  },
+  {
+   "date": "2026-08-11",
+   "equity": 9425.467297034973
+  },
+  {
+   "date": "2026-08-12",
+   "equity": 9341.870440527255
+  },
+  {
+   "date": "2026-08-13",
+   "equity": 9284.417170230754
+  },
+  {
+   "date": "2026-08-14",
+   "equity": 9291.774945990795
+  },
+  {
+   "date": "2026-08-17",
+   "equity": 9335.921600551052
+  },
+  {
+   "date": "2026-08-18",
+   "equity": 9431.885782272457
+  },
+  {
+   "date": "2026-08-19",
+   "equity": 9473.371113685464
+  },
+  {
+   "date": "2026-08-20",
+   "equity": 9387.269482450922
+  },
+  {
+   "date": "2026-08-21",
+   "equity": 9365.978897272927
+  },
+  {
+   "date": "2026-08-24",
+   "equity": 9270.640909233227
+  },
+  {
+   "date": "2026-08-25",
+   "equity": 9304.611916465763
+  },
+  {
+   "date": "2026-08-26",
+   "equity": 9322.928081655657
+  },
+  {
+   "date": "2026-08-27",
+   "equity": 9368.483671999751
+  },
+  {
+   "date": "2026-08-28",
+   "equity": 9462.569272676039
+  },
+  {
+   "date": "2026-08-31",
+   "equity": 9519.083252449982
+  },
+  {
+   "date": "2026-09-01",
+   "equity": 9564.795391214502
+  },
+  {
+   "date": "2026-09-02",
+   "equity": 9551.958420739535
+  },
+  {
+   "date": "2026-09-03",
+   "equity": 9690.347224396506
+  },
+  {
+   "date": "2026-09-04",
+   "equity": 9696.296064372711
+  },
+  {
+   "date": "2026-09-07",
+   "equity": 9608.942045774758
+  },
+  {
+   "date": "2026-09-08",
+   "equity": 9654.967281380132
+  },
+  {
+   "date": "2026-09-09",
+   "equity": 9680.797770750494
+  },
+  {
+   "date": "2026-09-10",
+   "equity": 9588.277654278469
+  }
+ ],
+ "limits": {
+  "risk_per_trade": 0.01,
+  "max_notional_frac": 1.0,
+  "monthly_loss_pause": 0.12,
+  "drawdown_disable": 0.5,
+  "max_orders_per_session": 20,
+  "max_spread_bps": 5.0,
+  "max_data_latency_s": 2.0,
+  "entry_timeout_s": 60,
+  "entry_limit_offset_bps": 5.0,
+  "synthetic_slippage_bps": [
+   5.0,
+   10.0
+  ]
+ }
+}

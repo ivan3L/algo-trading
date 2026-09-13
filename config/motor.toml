@@ -1,0 +1,56 @@
+# Parámetros pre-registrados del Motor Intradía v1.0. Cambiarlos exige pasar por la revisión trimestral.
+[account]
+paper = true
+book_equity_start = 10000.0          # libro virtual por estrategia, en dólares
+
+[limits]
+risk_per_trade = 0.01                # fracción del libro arriesgada por operación
+max_notional_frac = 1.0              # notional máximo por libro
+monthly_loss_pause = 0.12            # pérdida mensual que pausa el libro
+drawdown_disable = 0.50              # drawdown desde el inicio que apaga el libro
+max_orders_per_session = 20
+max_spread_bps = 5.0
+max_data_latency_s = 2.0
+entry_timeout_s = 60
+entry_limit_offset_bps = 5.0
+synthetic_slippage_bps = [5.0, 10.0]  # escenarios contabilizados en el diario
+
+[session]
+morning_start = "09:25"
+morning_end = "12:35"
+afternoon_start = "12:25"
+afternoon_end = "16:05"
+eod_close = "15:55"
+skip_half_days = true
+
+[strategies.S1]
+name = "ORB 5 min"
+signal_symbol = "QQQ"
+long_symbol = "TQQQ"
+short_symbol = "SQQQ"
+leverage = 3.0
+entry_time = "09:35:05"
+range_minutes = 5
+max_trades_per_day = 1
+
+[strategies.S2]
+name = "Banda de ruido"
+signal_symbol = "SPY"
+long_symbol = "SPY"
+short_symbol = "SH"
+leverage = 1.0
+lookback_days = 14
+check_times = ["10:00:05", "10:30:05", "11:00:05", "11:30:05", "12:00:05", "12:30:05", "13:00:05", "13:30:05", "14:00:05", "14:30:05", "15:00:05", "15:30:05"]
+max_trades_per_day = 3
+
+[strategies.S3]
+name = "Contra-apertura"
+signal_symbol = "QQQ"
+long_symbol = "QQQ"
+short_symbol = "PSQ"
+leverage = 1.0
+lookback_days = 14
+entry_time = "10:00:05"
+threshold_sigmas = 1.5
+stop_sigmas = 1.0
+max_trades_per_day = 1

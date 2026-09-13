@@ -1,0 +1,39 @@
+name: Sesión de tarde (paper)
+on:
+  schedule:
+    - cron: "20 16 * * 1-5"  # 12:20 en Nueva York con horario de verano (EDT)
+    - cron: "20 17 * * 1-5"  # 12:20 en Nueva York con horario de invierno (EST)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignorar la comprobación de horario"
+        type: boolean
+        default: true
+concurrency:
+  group: motor-sesion
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  sesion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 280
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install --quiet "alpaca-py>=0.44" "pandas>=2.2"
+      - name: Ejecutar ventana de tarde
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python scripts/run_session.py --window afternoon --cron-utc-hours 16 17 ${{ inputs.force == true && '--force' || '' }}
+      - name: Guardar diario, estado y dashboard
+        if: always()
+        run: |
+          git config user.name "motor-bot"
+          git config user.email "motor-bot@users.noreply.github.com"
+          git add data docs/data
+          git diff --cached --quiet || git commit -m "Sesión de tarde $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase --quiet && git push && break || sleep 15; done

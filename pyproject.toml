@@ -1,0 +1,13 @@
+[project]
+name = "motor-intradia"
+version = "1.0.0"
+description = "Motor intradía en paper trading sobre Alpaca: tres estrategias pre-registradas, límites duros, diario y dashboard."
+requires-python = ">=3.11"
+dependencies = ["alpaca-py>=0.44", "pandas>=2.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
