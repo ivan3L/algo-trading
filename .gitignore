@@ -1,0 +1,14 @@
+# entorno
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.env
+# claves: NUNCA en el repo
+**/keys*
+**/secrets*
+# artefactos de construcción
+tools/_build.html
+chrome-profile/
+.DS_Store
